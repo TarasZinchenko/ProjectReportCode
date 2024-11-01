@@ -15,7 +15,6 @@ participant_data = {
     "Vova": {"age": 20, "height": 184, "weight": 76, "drinking_frequency": "Regularly", "experience": "Less than 1 year"},
     "Mark": {"age": 21, "height": 175, "weight": 65, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
     "Z": {"age": 19, "height": 168, "weight": 56, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
-    # Adding new participants
     "Bob": {"age": 25, "height": 180, "weight": 75, "drinking_frequency": "Regularly", "experience": "3-5 years"},
     "Carol": {"age": 24, "height": 165, "weight": 60, "drinking_frequency": "Occasionally", "experience": "Less than 1 year"},
     "Dave": {"age": 27, "height": 175, "weight": 70, "drinking_frequency": "Regularly", "experience": "3-5 years"},
@@ -30,13 +29,11 @@ times_by_stage = [
     [10, 8, 24, 34],  # Vova
     [9, 9, 18, 30],  # Mark
     [6, 3, 7, 13],  # Z
-    # Adding new participants' task completion times
     [10, 5, 13, 19],  # Bob
     [15, 12, 24, None],  # Carol
     [9, 6, 15, 22],   # Dave
     [8, 6, 16, None]    # Alice
 ]
-# Я хочу посчитать количество строк у каждого в коде и сравнить с идеальным кодом который предлогает чат гпт
 
 perfomance = [
     [10, 3, 28, 12],  # Nik
