@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Dictionary mapping participants' names to survey data
-# Dictionary mapping participants' names to survey data
 participant_data = {
     "Nik": {"age": 20, "height": 186, "weight": 84, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
     "nickname": {"age": 18, "height": 192, "weight": 80, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
@@ -10,7 +9,6 @@ participant_data = {
     "Vova": {"age": 20, "height": 184, "weight": 76, "drinking_frequency": "Regularly", "experience": "Less than 1 year"},
     "Mark": {"age": 21, "height": 175, "weight": 65, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
     "Z": {"age": 19, "height": 168, "weight": 56, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
-    # Adding new participants
     "Bob": {"age": 25, "height": 180, "weight": 75, "drinking_frequency": "Regularly", "experience": "3-5 years"},
     "Carol": {"age": 24, "height": 165, "weight": 60, "drinking_frequency": "Occasionally", "experience": "Less than 1 year"},
     "Dave": {"age": 27, "height": 175, "weight": 70, "drinking_frequency": "Regularly", "experience": "3-5 years"},
@@ -25,7 +23,6 @@ times_by_stage = [
     [10, 8, 24, 34],  # Vova
     [9, 9, 18, 30],  # Mark
     [6, 3, 7, 13],  # Z
-    # Adding new participants' task completion times
     [10, 5, 13, 19],  # Bob
     [15, 12, 24, None],  # Carol
     [9, 6, 15, 22],   # Dave
@@ -49,7 +46,6 @@ def coding_speed_average(times_by_stage):
 
     plt.figure(figsize=(10, 6))
     for i, times in enumerate(times_by_stage):
-        # Replace None with np.nan for plotting
         times = [time if time is not None else np.nan for time in times]
         plt.plot(stages, times, marker='o', linestyle='-', label=f"Student {i + 1}")
 
