@@ -1,12 +1,16 @@
 from scipy.stats import wilcoxon
 
 times_by_stage = [
-    [5, 2, 20, 10],  # Nik
-    [11, 7, 21, 29],  # nickname
+    [5, 2, 20, 10],  # user1
+    [11, 7, 21, None],  # nickname
     [11, 5, 12, 10],  # animal012
-    [10, 8, 24, 34],  # Vova
-    [9, 9, 18, 30],  # Mark
-    [6, 3, 7, 13]  # Z
+    [10, 8, 24, 34],  # user2
+    [9, 9, 18, 30],  # user3
+    [6, 3, 7, 13],  # Z
+    [10, 5, 13, 19],  # user4
+    [15, 12, 24, None],  # user5
+    [9, 6, 15, 22],   # user6
+    [8, 6, 16, None]    # Nickie
 ]
 
 # Function to perform Wilcoxon Signed-Rank Tests on coding speed across alcohol consumption levels
