@@ -23,29 +23,29 @@ participant_data = {
 
 # Data: Time spent by each student on each task (sober, 1 drink, 2 drinks, etc.)
 times_by_stage = [
-    [5, 2, 20, 10],  # Nik
+    [5, 2, 20, 10],  # user1
     [11, 7, 21, None],  # nickname
     [11, 5, 12, 10],  # animal012
-    [10, 8, 24, 34],  # Vova
-    [9, 9, 18, 30],  # Mark
+    [10, 8, 24, 34],  # user2
+    [9, 9, 18, 30],  # user3
     [6, 3, 7, 13],  # Z
-    [10, 5, 13, 19],  # Bob
-    [15, 12, 24, None],  # Carol
-    [9, 6, 15, 22],   # Dave
-    [8, 6, 16, None]    # Alice
+    [10, 5, 13, 19],  # user4
+    [15, 12, 24, None],  # user5
+    [9, 6, 15, 22],   # user6
+    [8, 6, 16, None]    # Nickie
 ]
 
-perfomance = [
-    [10, 3, 28, 12],  # Nik
+performance = [
+    [10, 3, 28, 12],  # user1
     [10, 7, 13, None],  # nickname
     [18, 5, 12, 10],  # animal012
-    [7, 8, 24, 34],  # Vova
-    [6, 9, 18, 30],  # Mark
-    [11, 3, 7, 13],  # Z
-    [10, 5, 13, 19],  # Bob
-    [15, 12, 24, None],  # Carol
-    [9, 6, 15, 22],   # Dave
-    [8, 6, 16, None]    # Alice
+    [7, 8, 16, 17],  # user2
+    [6, 7, 12, 18],  # user3
+    [11, 12, 19, 15],  # Z
+    [9, 8, 7, 10],  # user4
+    [9, 3, 14, None],  # user5
+    [7, 5, 14, 7],   # user6
+    [8, 2, 2, None]    # Nickie
 ]
 
 # Convert times data to numpy array for easier manipulation
