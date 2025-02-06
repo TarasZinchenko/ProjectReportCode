@@ -22,16 +22,16 @@ participant_data = {
 
 # Data: Time spent by each student on each task (sober, 1 drink, 2 drinks, etc.)
 times_by_stage = [
-    [5, 2, 20, 10],  
-    [11, 7, 21, None],  
-    [11, 5, 12, 10], 
-    [10, 8, 24, 34], 
-    [9, 9, 18, 30], 
-    [6, 3, 7, 13], 
-    [10, 5, 13, 19], 
-    [15, 12, 24, None], 
-    [9, 6, 15, 22],  
-    [8, 6, 16, None]   
+    [5, 2, 20, 10],  # user1
+    [11, 7, 21, None],  # nickname
+    [11, 5, 12, 10],  # animal012
+    [10, 8, 24, 34],  # user2
+    [9, 9, 18, 30],  # user3
+    [6, 3, 7, 13],  # Z
+    [10, 5, 13, 19],  # user4
+    [15, 12, 24, None],  # user5
+    [9, 6, 15, 22],   # user6
+    [8, 6, 16, None]    # Nickie
 ]
 
 # Function to perform correlation analysis between experience level and average coding speed
