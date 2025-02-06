@@ -5,16 +5,16 @@ import seaborn as sns
 
 # Participant data: Performance across four stages
 performance = [
-    [10, 3, 28, 12],  # Nik
+    [10, 3, 28, 12],  # user1
     [10, 7, 13, None],  # nickname
     [18, 5, 12, 10],  # animal012
-    [7, 8, 16, 17],  # Vova
-    [6, 7, 12, 18],  # Mark
+    [7, 8, 16, 17],  # user3
+    [6, 7, 12, 18],  # user4
     [11, 12, 19, 15],  # Z
-    [9, 8, 7, 10],  # Bob
-    [9, 3, 14, None],  # Carol
-    [7, 5, 14, 7],   # Dave
-    [8, 2, 2, None]    # Alice
+    [9, 8, 7, 10],  # user5
+    [9, 3, 14, None],  # user6
+    [7, 5, 14, 7],   # user7
+    [8, 2, 2, None]    # Nickie
 ]
 
 # Ideal minimum lines for each stage
