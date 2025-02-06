@@ -5,16 +5,16 @@ import seaborn as sns
 
 # Data: Lines of Code (actual performance)
 performance = [
-    [10, 3, 28, 12],  # Nik
+    [10, 3, 28, 12],  # user1
     [10, 7, 13, None],  # nickname
     [18, 5, 12, 10],  # animal012
-    [7, 8, 16, 17],  # Vova
-    [6, 7, 12, 18],  # Mark
+    [7, 8, 16, 17],  # user2
+    [6, 7, 12, 18],  # user3
     [11, 12, 19, 15],  # Z
-    [9, 8, 7, 10],  # Bob
-    [9, 3, 14, None],  # Carol
-    [7, 5, 14, 7],   # Dave
-    [8, 2, 2, None]    # Alice
+    [9, 8, 7, 10],  # user4
+    [9, 3, 14, None],  # user5
+    [7, 5, 14, 7],   # user6
+    [8, 2, 2, None]    # Nickie
 ]
 df_performance = pd.DataFrame(performance, columns=['Sober', '1 Drink', '2 Drinks', '3 Drinks'])
 
@@ -28,32 +28,32 @@ average_performance_gap = performance_gap.mean()
 
 # Data: Confidence Levels
 confidence_levels = [
-    [None, 3, 2, 1],  # Nik
+    [None, 3, 2, 1],  # user1
     [None, 4, 4, 1],  # nickname
     [None, 4, 4, 3],  # animal012
-    [None, 3, 2, 1],  # Vova
-    [None, 2, 2, 1],  # Mark
+    [None, 3, 2, 1],  # user2
+    [None, 2, 2, 1],  # user3
     [None, 5, 4, 2],  # Z
-    [None, 3, 2, 1],  # Bob
-    [None, 3, 2, 1],  # Carol
-    [None, 3, 2, 1],   # Dave
-    [None, 3, 3, 1]    # Alice
+    [None, 3, 2, 1],  # user4
+    [None, 3, 2, 1],  # user5
+    [None, 3, 2, 1],   # user6
+    [None, 3, 3, 1]    # Nickie
 ]
 df_confidence = pd.DataFrame(confidence_levels, columns=['Sober', '1 Drink', '2 Drinks', '3 Drinks'])
 average_confidence = df_confidence.mean()
 
 # Data: Concentration Levels
 concentration_levels = [
-    [4, 3, 2, 1],  # Nik
+    [4, 3, 2, 1],  # user1
     [3, 3, 2, 1],  # nickname
     [4, 4, 3, 2],  # animal012
-    [4, 4, 3, 1],  # Vova
-    [5, 3, 2, 1],  # Mark
+    [4, 4, 3, 1],  # user2
+    [5, 3, 2, 1],  # user3
     [5, 5, 4, 3],  # Z
-    [4, 3, 2, 1],  # Bob
-    [4, 4, 2, 1],  # Carol
-    [5, 3, 2, 1],   # Dave
-    [4, 4, 3, 2]    # Alice
+    [4, 3, 2, 1],  # user4
+    [4, 4, 2, 1],  # user5
+    [5, 3, 2, 1],   # user6
+    [4, 4, 3, 2]    # Nickie
 ]
 df_concentration = pd.DataFrame(concentration_levels, columns=['Sober', '1 Drink', '2 Drinks', '3 Drinks'])
 average_concentration = df_concentration.mean()
