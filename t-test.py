@@ -9,16 +9,16 @@ experience_mapping = {
     "3-5 years": 3
 }
 participant_data = {
-    "Nik": {"age": 20, "height": 186, "weight": 84, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
+    "user1": {"age": 20, "height": 186, "weight": 84, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
     "nickname": {"age": 18, "height": 192, "weight": 80, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
     "animal012": {"age": 19, "height": 173, "weight": 66, "drinking_frequency": "Regularly", "experience": "3-5 years"},
-    "Vova": {"age": 20, "height": 184, "weight": 76, "drinking_frequency": "Regularly", "experience": "Less than 1 year"},
-    "Mark": {"age": 21, "height": 175, "weight": 65, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
+    "user2": {"age": 20, "height": 184, "weight": 76, "drinking_frequency": "Regularly", "experience": "Less than 1 year"},
+    "user3": {"age": 21, "height": 175, "weight": 65, "drinking_frequency": "Occasionally", "experience": "1-3 years"},
     "Z": {"age": 19, "height": 168, "weight": 56, "drinking_frequency": "Occasionally", "experience": "3-5 years"},
-    "Bob": {"age": 25, "height": 180, "weight": 75, "drinking_frequency": "Regularly", "experience": "3-5 years"},
-    "Carol": {"age": 24, "height": 165, "weight": 60, "drinking_frequency": "Occasionally", "experience": "Less than 1 year"},
-    "Dave": {"age": 27, "height": 175, "weight": 70, "drinking_frequency": "Regularly", "experience": "3-5 years"},
-    "Alice": {"age": 23, "height": 160, "weight": 55, "drinking_frequency": "Occasionally", "experience": "1-3 years"}
+    "user4": {"age": 25, "height": 180, "weight": 75, "drinking_frequency": "Regularly", "experience": "3-5 years"},
+    "user5": {"age": 24, "height": 165, "weight": 60, "drinking_frequency": "Occasionally", "experience": "Less than 1 year"},
+    "user6": {"age": 27, "height": 175, "weight": 70, "drinking_frequency": "Regularly", "experience": "3-5 years"},
+    "Nickie": {"age": 23, "height": 160, "weight": 55, "drinking_frequency": "Occasionally", "experience": "1-3 years"}
 }
 
 # Data: Time spent by each student on each task (sober, 1 drink, 2 drinks, etc.)
