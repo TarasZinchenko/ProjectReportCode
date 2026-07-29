@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/project_report/__init__.py
+src/project_report/analysis.py
+src/project_report/cli.py
+src/project_report/data.py
+src/project_report/plotting.py
+src/project_report.egg-info/PKG-INFO
+src/project_report.egg-info/SOURCES.txt
+src/project_report.egg-info/dependency_links.txt
+src/project_report.egg-info/entry_points.txt
+src/project_report.egg-info/top_level.txt
+tests/test_data.py

@@ -1,0 +1,3 @@
+[console_scripts]
+project-report-plots = project_report.cli:run_plots
+project-report-stats = project_report.cli:run_stats
