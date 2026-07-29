@@ -1,0 +1,48 @@
+{
+  "correlation": {
+    "Sober": {
+      "correlation": -0.5887197203176645,
+      "p_value": 0.0733633657572427
+    },
+    "1 Drink": {
+      "correlation": -0.8307986556033825,
+      "p_value": 0.0029078702032121055
+    },
+    "2 Drinks": {
+      "correlation": -0.7885026890182111,
+      "p_value": 0.006721994990489864
+    },
+    "3 Drinks": {
+      "correlation": -0.8601567268723714,
+      "p_value": 0.013008328948614263
+    }
+  },
+  "t_tests": {
+    "Sober vs 1 Drink": {
+      "t_statistic": 5.893635529877644,
+      "p_value": 0.00023088637199663174
+    },
+    "1 Drink vs 2 Drinks": {
+      "t_statistic": -7.876263122231258,
+      "p_value": 2.5065003732901234e-05
+    },
+    "2 Drinks vs 3 Drinks": {
+      "t_statistic": -1.4374766315801681,
+      "p_value": 0.20061835283581558
+    }
+  },
+  "wilcoxon": {
+    "Sober vs 1 Drink": {
+      "statistic": 0.0,
+      "p_value": 0.00390625
+    },
+    "Sober vs 2 Drinks": {
+      "statistic": 0.0,
+      "p_value": 0.001953125
+    },
+    "Sober vs 3 Drinks": {
+      "statistic": 1.0,
+      "p_value": 0.03125
+    }
+  }
+}
